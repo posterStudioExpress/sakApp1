@@ -58,7 +58,7 @@ target_link_libraries(DesignJetStatus PRIVATE ${SYSTEM_LIBS})
 
 # Set target properties
 set_target_properties(DesignJetStatus PROPERTIES
-    WIN32_EXECUTABLE TRUE
+    WIN32_EXECUTABLE FALSE
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
 )
 
