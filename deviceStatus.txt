@@ -1,0 +1,45 @@
+PS C:\Users\Poster Studio\devtechs\sakApp1> curl.exe -k https://192.168.254.82/LFPWebServices/PI/DeviceStatus.json
+{
+  "DeviceStatus": {
+    "ActivitiesOverview": {
+      "CurrentActivities": {
+        "Activity": {
+          "Name": "NoActivity",
+          "RemainingTime": -1,
+          "Type": "System"
+        }
+      },
+      "MostRelevantActivity": {
+        "Name": "NoActivity",
+        "RemainingTime": -1,
+        "Type": "System"
+      }
+    },
+    "ReadyToExecuteActivities": {
+      "ActivityName": [
+        "NoActivity",
+        "Processing",
+        "Printing",
+        "Scanning",
+        "ReplacingConsumables",
+        "DeviceMaintenance",
+        "DeviceReshiping",
+        "DeviceOptimizing",
+        "Upgrade",
+        "InstallingAccessory",
+        "PreparingToPrint",
+        "Drying",
+        "TerminatingPrint",
+        "CancellingPrint",
+        "CheckingPrinter"
+      ]
+    },
+    "StatusOverview": {
+      "MostRelevantStatus": "WithAlerts",
+      "StatusList": {
+        "StatusType": "WithAlerts"
+      },
+      "StatusSeverity": "Warning"
+    }
+  }
+}

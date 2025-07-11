@@ -1,0 +1,6 @@
+IN;        // Initialize
+SP1;       // Select pen 1
+PU0,0;     // Pen up at coordinates (0,0)
+PD1000,1000; // Draw line to (1000,1000)
+PU;        // Pen up
+SP0;       // Deselect pen

@@ -1,0 +1,615 @@
+PS C:\Users\Poster Studio\Desktop> curl.exe -k https://192.168.254.82/LFPWebServices/PI/InkSystem.json
+{
+  "InkSystem": {
+    "InkSlotGroupCollection": {
+      "InkSlotGroup": [
+        {
+          "Color": "magenta",
+          "InkAgentType": "marking",
+          "InkSlotCollection": {
+            "InkSlot": {
+              "Color": "magenta",
+              "InkAgentType": "marking",
+              "SlotGroupId": 0,
+              "SlotId": 0,
+              "SlotInfo": {
+                "InkSlotCumulativeInfo": {
+                  "HPInkUsed": {
+                    "Unit": "cc",
+                    "Value": 4691
+                  },
+                  "InkUsed": {
+                    "Unit": "cc",
+                    "Value": 4691
+                  },
+                  "NumberOfInsertions": 133
+                },
+                "InkSupplyInfo": {
+                  "BatchID": null ,
+                  "Brand": "HP",
+                  "Capacity": {
+                    "Unit": "cc",
+                    "Value": 300
+                  },
+                  "DetailedStatus": {
+                    "StatusFlag": "Unknown"
+                  },
+                  "EndOfWarrantyDate": "2027-03-20T15:03:20Z",
+                  "ExpirationDate": "1970-01-01T00:00:00Z",
+                  "InWarranty": true,
+                  "InstallDate": "2025-05-21T04:00:00Z",
+                  "Level": {
+                    "Unit": "cc",
+                    "Value": 184
+                  },
+                  "LevelPercentage": 62.000000,
+                  "ManufacturerDate": "2024-09-21T15:03:20Z",
+                  "OrderNumber": "HP 746",
+                  "PartNumber": "P2V78A",
+                  "SerialNumber": "3326800-37-14",
+                  "State": "Ok",
+                  "Status": {
+                    "StatusFlag": "LowLevel"
+                  },
+                  "StatusCode": "0x00000001",
+                  "SupplyType": "Supply",
+                  "UserReportedSeverity": "Informative",
+                  "UserReportedStatus": "Ready",
+                  "WarrantyStatus": "InWarranty",
+                  "ext": [
+                    null ,
+                    null ,
+                    null
+                  ]
+                }
+              },
+              "SlotTubeId": 0,
+              "SupplyType": "Supply",
+              "SupportedOrderNumbersCollection": {
+                "OrderNumber": "HP 746"
+              },
+              "ext": [
+                null ,
+                null
+              ],
+              "isPresent": true
+            }
+          },
+          "InkSlotGroupInfo": {
+            "HPInkUsed": {
+              "Unit": "cc",
+              "Value": 4691
+            },
+            "InkSupplyGroupInfo": {
+              "Capacity": {
+                "Unit": "cc",
+                "Value": 300
+              },
+              "Level": {
+                "Unit": "cc",
+                "Value": 186
+              },
+              "LevelPercentage": 62.000000,
+              "State": "Ok",
+              "Status": {
+                "StatusFlag": "LowLevel"
+              },
+              "UserReportedSeverity": "Informative",
+              "UserReportedStatus": "GroupReady"
+            },
+            "InkUsed": {
+              "Unit": "cc",
+              "Value": 4691
+            }
+          },
+          "SlotGroupId": 0
+        },
+        {
+          "Color": "yellow",
+          "InkAgentType": "marking",
+          "InkSlotCollection": {
+            "InkSlot": {
+              "Color": "yellow",
+              "InkAgentType": "marking",
+              "SlotGroupId": 1,
+              "SlotId": 1,
+              "SlotInfo": {
+                "InkSlotCumulativeInfo": {
+                  "HPInkUsed": {
+                    "Unit": "cc",
+                    "Value": 2470
+                  },
+                  "InkUsed": {
+                    "Unit": "cc",
+                    "Value": 2470
+                  },
+                  "NumberOfInsertions": 131
+                },
+                "InkSupplyInfo": {
+                  "BatchID": null ,
+                  "Brand": "HP",
+                  "Capacity": {
+                    "Unit": "cc",
+                    "Value": 300
+                  },
+                  "DetailedStatus": {
+                    "StatusFlag": "Unknown"
+                  },
+                  "EndOfWarrantyDate": "2027-01-28T14:47:06Z",
+                  "ExpirationDate": "1970-01-01T00:00:00Z",
+                  "InWarranty": true,
+                  "InstallDate": "2025-04-30T04:00:00Z",
+                  "Level": {
+                    "Unit": "cc",
+                    "Value": 162
+                  },
+                  "LevelPercentage": 55.000000,
+                  "ManufacturerDate": "2024-08-01T14:47:06Z",
+                  "OrderNumber": "HP 746",
+                  "PartNumber": "P2V79A",
+                  "SerialNumber": "2273048-30-14",
+                  "State": "Ok",
+                  "Status": {
+                    "StatusFlag": "LowLevel"
+                  },
+                  "StatusCode": "0x00000001",
+                  "SupplyType": "Supply",
+                  "UserReportedSeverity": "Informative",
+                  "UserReportedStatus": "Ready",
+                  "WarrantyStatus": "InWarranty",
+                  "ext": [
+                    null ,
+                    null ,
+                    null
+                  ]
+                }
+              },
+              "SlotTubeId": 1,
+              "SupplyType": "Supply",
+              "SupportedOrderNumbersCollection": {
+                "OrderNumber": "HP 746"
+              },
+              "ext": [
+                null ,
+                null
+              ],
+              "isPresent": true
+            }
+          },
+          "InkSlotGroupInfo": {
+            "HPInkUsed": {
+              "Unit": "cc",
+              "Value": 2470
+            },
+            "InkSupplyGroupInfo": {
+              "Capacity": {
+                "Unit": "cc",
+                "Value": 300
+              },
+              "Level": {
+                "Unit": "cc",
+                "Value": 165
+              },
+              "LevelPercentage": 55.000000,
+              "State": "Ok",
+              "Status": {
+                "StatusFlag": "LowLevel"
+              },
+              "UserReportedSeverity": "Informative",
+              "UserReportedStatus": "GroupReady"
+            },
+            "InkUsed": {
+              "Unit": "cc",
+              "Value": 2470
+            }
+          },
+          "SlotGroupId": 1
+        },
+        {
+          "Color": "cyan",
+          "InkAgentType": "marking",
+          "InkSlotCollection": {
+            "InkSlot": {
+              "Color": "cyan",
+              "InkAgentType": "marking",
+              "SlotGroupId": 2,
+              "SlotId": 2,
+              "SlotInfo": {
+                "InkSlotCumulativeInfo": {
+                  "HPInkUsed": {
+                    "Unit": "cc",
+                    "Value": 4495
+                  },
+                  "InkUsed": {
+                    "Unit": "cc",
+                    "Value": 4495
+                  },
+                  "NumberOfInsertions": 131
+                },
+                "InkSupplyInfo": {
+                  "BatchID": null ,
+                  "Brand": "HP",
+                  "Capacity": {
+                    "Unit": "cc",
+                    "Value": 300
+                  },
+                  "DetailedStatus": {
+                    "StatusFlag": "Unknown"
+                  },
+                  "EndOfWarrantyDate": "2027-01-30T11:32:37Z",
+                  "ExpirationDate": "1970-01-01T00:00:00Z",
+                  "InWarranty": true,
+                  "InstallDate": "2025-03-05T05:00:00Z",
+                  "Level": {
+                    "Unit": "cc",
+                    "Value": 24
+                  },
+                  "LevelPercentage": 9.000000,
+                  "ManufacturerDate": "2024-08-03T11:32:37Z",
+                  "OrderNumber": "HP 746",
+                  "PartNumber": "P2V80A",
+                  "SerialNumber": "3268756-30-14",
+                  "State": "Warning",
+                  "Status": {
+                    "StatusFlag": "VeryLowLevel"
+                  },
+                  "StatusCode": "0x40000009",
+                  "SupplyType": "Supply",
+                  "UserReportedSeverity": "Warning",
+                  "UserReportedStatus": "VeryLowLevel",
+                  "WarrantyStatus": "InWarranty",
+                  "ext": [
+                    null ,
+                    null ,
+                    null
+                  ]
+                }
+              },
+              "SlotTubeId": 2,
+              "SupplyType": "Supply",
+              "SupportedOrderNumbersCollection": {
+                "OrderNumber": "HP 746"
+              },
+              "ext": [
+                null ,
+                null
+              ],
+              "isPresent": true
+            }
+          },
+          "InkSlotGroupInfo": {
+            "HPInkUsed": {
+              "Unit": "cc",
+              "Value": 4495
+            },
+            "InkSupplyGroupInfo": {
+              "Capacity": {
+                "Unit": "cc",
+                "Value": 300
+              },
+              "Level": {
+                "Unit": "cc",
+                "Value": 27
+              },
+              "LevelPercentage": 9.000000,
+              "State": "Warning",
+              "Status": {
+                "StatusFlag": "VeryLowLevel"
+              },
+              "UserReportedSeverity": "Warning",
+              "UserReportedStatus": "GroupVeryLow"
+            },
+            "InkUsed": {
+              "Unit": "cc",
+              "Value": 4495
+            }
+          },
+          "SlotGroupId": 2
+        },
+        {
+          "Color": "chromatic-red",
+          "InkAgentType": "marking",
+          "InkSlotCollection": {
+            "InkSlot": {
+              "Color": "chromatic-red",
+              "InkAgentType": "marking",
+              "SlotGroupId": 3,
+              "SlotId": 3,
+              "SlotInfo": {
+                "InkSlotCumulativeInfo": {
+                  "HPInkUsed": {
+                    "Unit": "cc",
+                    "Value": 1833
+                  },
+                  "InkUsed": {
+                    "Unit": "cc",
+                    "Value": 1833
+                  },
+                  "NumberOfInsertions": 122
+                },
+                "InkSupplyInfo": {
+                  "BatchID": null ,
+                  "Brand": "HP",
+                  "Capacity": {
+                    "Unit": "cc",
+                    "Value": 300
+                  },
+                  "DetailedStatus": {
+                    "StatusFlag": "Unknown"
+                  },
+                  "EndOfWarrantyDate": "2026-12-27T01:02:37Z",
+                  "ExpirationDate": "1970-01-01T00:00:00Z",
+                  "InWarranty": true,
+                  "InstallDate": "2025-01-29T05:00:00Z",
+                  "Level": {
+                    "Unit": "cc",
+                    "Value": 48
+                  },
+                  "LevelPercentage": 17.000000,
+                  "ManufacturerDate": "2024-06-30T01:02:37Z",
+                  "OrderNumber": "HP 746",
+                  "PartNumber": "P2V81A",
+                  "SerialNumber": "3490454-25-14",
+                  "State": "Warning",
+                  "Status": {
+                    "StatusFlag": "LowLevel"
+                  },
+                  "StatusCode": "0x00000005",
+                  "SupplyType": "Supply",
+                  "UserReportedSeverity": "Warning",
+                  "UserReportedStatus": "LowLevel",
+                  "WarrantyStatus": "InWarranty",
+                  "ext": [
+                    null ,
+                    null ,
+                    null
+                  ]
+                }
+              },
+              "SlotTubeId": 3,
+              "SupplyType": "Supply",
+              "SupportedOrderNumbersCollection": {
+                "OrderNumber": "HP 746"
+              },
+              "ext": [
+                null ,
+                null
+              ],
+              "isPresent": true
+            }
+          },
+          "InkSlotGroupInfo": {
+            "HPInkUsed": {
+              "Unit": "cc",
+              "Value": 1833
+            },
+            "InkSupplyGroupInfo": {
+              "Capacity": {
+                "Unit": "cc",
+                "Value": 300
+              },
+              "Level": {
+                "Unit": "cc",
+                "Value": 51
+              },
+              "LevelPercentage": 17.000000,
+              "State": "Warning",
+              "Status": {
+                "StatusFlag": "LowLevel"
+              },
+              "UserReportedSeverity": "Warning",
+              "UserReportedStatus": "GroupLow"
+            },
+            "InkUsed": {
+              "Unit": "cc",
+              "Value": 1833
+            }
+          },
+          "SlotGroupId": 3
+        },
+        {
+          "Color": "photo-black",
+          "InkAgentType": "marking",
+          "InkSlotCollection": {
+            "InkSlot": {
+              "Color": "photo-black",
+              "InkAgentType": "marking",
+              "SlotGroupId": 4,
+              "SlotId": 4,
+              "SlotInfo": {
+                "InkSlotCumulativeInfo": {
+                  "HPInkUsed": {
+                    "Unit": "cc",
+                    "Value": 6954
+                  },
+                  "InkUsed": {
+                    "Unit": "cc",
+                    "Value": 6954
+                  },
+                  "NumberOfInsertions": 141
+                },
+                "InkSupplyInfo": {
+                  "BatchID": null ,
+                  "Brand": "HP",
+                  "Capacity": {
+                    "Unit": "cc",
+                    "Value": 300
+                  },
+                  "DetailedStatus": {
+                    "StatusFlag": "Unknown"
+                  },
+                  "EndOfWarrantyDate": "2026-12-26T07:10:16Z",
+                  "ExpirationDate": "1970-01-01T00:00:00Z",
+                  "InWarranty": true,
+                  "InstallDate": "2025-06-04T04:00:00Z",
+                  "Level": {
+                    "Unit": "cc",
+                    "Value": 164
+                  },
+                  "LevelPercentage": 56.000000,
+                  "ManufacturerDate": "2024-06-29T07:10:16Z",
+                  "OrderNumber": "HP 746",
+                  "PartNumber": "P2V82A",
+                  "SerialNumber": "3197504-25-14",
+                  "State": "Ok",
+                  "Status": {
+                    "StatusFlag": "LowLevel"
+                  },
+                  "StatusCode": "0x00000001",
+                  "SupplyType": "Supply",
+                  "UserReportedSeverity": "Informative",
+                  "UserReportedStatus": "Ready",
+                  "WarrantyStatus": "InWarranty",
+                  "ext": [
+                    null ,
+                    null ,
+                    null
+                  ]
+                }
+              },
+              "SlotTubeId": 4,
+              "SupplyType": "Supply",
+              "SupportedOrderNumbersCollection": {
+                "OrderNumber": "HP 746"
+              },
+              "ext": [
+                null ,
+                null
+              ],
+              "isPresent": true
+            }
+          },
+          "InkSlotGroupInfo": {
+            "HPInkUsed": {
+              "Unit": "cc",
+              "Value": 6954
+            },
+            "InkSupplyGroupInfo": {
+              "Capacity": {
+                "Unit": "cc",
+                "Value": 300
+              },
+              "Level": {
+                "Unit": "cc",
+                "Value": 168
+              },
+              "LevelPercentage": 56.000000,
+              "State": "Ok",
+              "Status": {
+                "StatusFlag": "LowLevel"
+              },
+              "UserReportedSeverity": "Informative",
+              "UserReportedStatus": "GroupReady"
+            },
+            "InkUsed": {
+              "Unit": "cc",
+              "Value": 6954
+            }
+          },
+          "SlotGroupId": 4
+        },
+        {
+          "Color": "matte-black",
+          "InkAgentType": "marking",
+          "InkSlotCollection": {
+            "InkSlot": {
+              "Color": "matte-black",
+              "InkAgentType": "marking",
+              "SlotGroupId": 5,
+              "SlotId": 5,
+              "SlotInfo": {
+                "InkSlotCumulativeInfo": {
+                  "HPInkUsed": {
+                    "Unit": "cc",
+                    "Value": 422
+                  },
+                  "InkUsed": {
+                    "Unit": "cc",
+                    "Value": 422
+                  },
+                  "NumberOfInsertions": 121
+                },
+                "InkSupplyInfo": {
+                  "BatchID": null ,
+                  "Brand": "HP",
+                  "Capacity": {
+                    "Unit": "cc",
+                    "Value": 300
+                  },
+                  "DetailedStatus": {
+                    "StatusFlag": "Unknown"
+                  },
+                  "EndOfWarrantyDate": "2025-04-26T15:01:35Z",
+                  "ExpirationDate": "1970-01-01T00:00:00Z",
+                  "InWarranty": false,
+                  "InstallDate": "2025-01-08T05:00:00Z",
+                  "Level": {
+                    "Unit": "cc",
+                    "Value": 202
+                  },
+                  "LevelPercentage": 69.000000,
+                  "ManufacturerDate": "2022-10-29T15:01:35Z",
+                  "OrderNumber": "HP 746",
+                  "PartNumber": "P2V83A",
+                  "SerialNumber": "3326350-43-12",
+                  "State": "Ok",
+                  "Status": {
+                    "StatusFlag": "LowLevel"
+                  },
+                  "StatusCode": "0x00000001",
+                  "SupplyType": "Supply",
+                  "UserReportedSeverity": "Informative",
+                  "UserReportedStatus": "Ready",
+                  "WarrantyStatus": "OutOfWarranty",
+                  "ext": [
+                    null ,
+                    null ,
+                    null
+                  ]
+                }
+              },
+              "SlotTubeId": 5,
+              "SupplyType": "Supply",
+              "SupportedOrderNumbersCollection": {
+                "OrderNumber": "HP 746"
+              },
+              "ext": [
+                null ,
+                null
+              ],
+              "isPresent": true
+            }
+          },
+          "InkSlotGroupInfo": {
+            "HPInkUsed": {
+              "Unit": "cc",
+              "Value": 422
+            },
+            "InkSupplyGroupInfo": {
+              "Capacity": {
+                "Unit": "cc",
+                "Value": 300
+              },
+              "Level": {
+                "Unit": "cc",
+                "Value": 206
+              },
+              "LevelPercentage": 69.000000,
+              "State": "Ok",
+              "Status": {
+                "StatusFlag": "LowLevel"
+              },
+              "UserReportedSeverity": "Informative",
+              "UserReportedStatus": "GroupReady"
+            },
+            "InkUsed": {
+              "Unit": "cc",
+              "Value": 422
+            }
+          },
+          "SlotGroupId": 5
+        }
+      ]
+    }
+  }
+}
